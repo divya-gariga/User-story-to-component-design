@@ -1,0 +1,40 @@
+.navbar-container {
+    position: 'relative';
+}
+.navbar-blinkist-logo {
+    padding: 30px 2.97% 30px 17.36%;
+}
+
+.navbar-magnifying-icon {
+    padding: 33px 2.89% 32.69px 0;
+}
+
+.navbar-magnifying-img-prop {
+    width: 20.31px;
+    height: 20.31px;
+}
+
+.navbar-search-input-field {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    flex-grow: 1;
+}
+
+.hover:hover {
+    border-bottom: 2px solid #2CE080;
+    padding-bottom: 4px;
+}
+
+.navbar-account-text {
+    margin-right: 270px;
+    padding-top: 33px;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-content {
+    position: absolute;
+    top: 10%;
+}

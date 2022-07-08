@@ -1,0 +1,13 @@
+.send-to-kindle-button {
+    padding-left: 3%;
+}
+.arrow-icon {
+    vertical-align: middle;
+}
+#book-title{
+    color:"blue"
+}
+.tick-mark{
+    font-size: xx-large;
+    color: "green";
+}

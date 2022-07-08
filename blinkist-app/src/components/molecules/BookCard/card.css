@@ -1,0 +1,71 @@
+.book-card_title {
+  border: #03314b;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.33;
+  color: #03314b;
+  position: relative;
+  width: 100%;
+  max-height: 2.9925rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+.book-card_author {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6d787e;
+  margin-bottom: 0.5rem;
+}
+.book-card_stats {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.57;
+  color: #6d787e;
+  display: flex;
+  flex-wrap: wrap;
+}
+.book-card_stats-item {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+.book-card_readCount {
+  font-family: "CeraProLight",sans-serif;
+  font-size: 14px;
+  vertical-align: auto;
+  /* line-height: 1.22; */
+  padding-bottom: 21px;
+
+}
+
+.book-card_icon {
+  padding-right: 7.33px;
+  vertical-align: top;
+  line-height: 1.22;
+
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
+
+.book-card_readTime {
+  border: #03314b;
+  font-family: 'CeraProLight', sans-serif;
+  padding-right: 47.33px;
+}
+
+.button {
+  padding: 0;
+}
+
+.ellipsis {
+  font-size: 22px;
+  position: relative;
+  left: 235px;
+  /* right: 12.5%; */
+}

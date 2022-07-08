@@ -1,0 +1,27 @@
+.container {
+    padding-left: 27%
+        /* display: flex;
+    justify-content: center; */
+}
+
+.search-result-dropdown {
+    background-color: white;
+    width: 450px;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.search-result-item {
+    padding: 24px 24px 24px 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-bottom: 1px solid #bac8ce;
+    color: black;
+
+}
+

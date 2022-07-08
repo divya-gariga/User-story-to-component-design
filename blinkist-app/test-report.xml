@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/divyag/Documents/my-app/src/components/organisms/ExploreDropdown/ExploreDropdown.test.tsx">
+    <testCase name="Dropdown" duration="243"/>
+    <testCase name="mock entrepreneurship link" duration="52"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/organisms/Header/Header.test.tsx">
+    <testCase name="My Library" duration="128"/>
+    <testCase name="Explore" duration="74"/>
+    <testCase name="test all icons in the header" duration="27"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/organisms/Banner/Banner.test.tsx">
+    <testCase name="Banner" duration="29"/>
+    <testCase name="girl image" duration="58"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/pages/BeyondEntrepreneurship/BeyondEntrepreneurship.test.tsx">
+    <testCase name="BeyondEntrepreneurship text" duration="311"/>
+    <testCase name="BeyondEntrepreneurship quote and author" duration="100"/>
+    <testCase name="Finished buttons" duration="187"/>
+    <testCase name="book img" duration="84"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/organisms/Footer/Footer.test.tsx">
+    <testCase name="Footer" duration="77"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/pages/Library/Library.test.tsx">
+    <testCase name="typography" duration="126"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/molecules/Buttons/Primary/Primary.test.tsx">
+    <testCase name="calls onClick prop when clicked" duration="36"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/molecules/Buttons/Secondary/Secondary.test.tsx">
+    <testCase name="calls onClick prop when clicked" duration="78"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/molecules/BookCard/BookCard.test.tsx">
+    <testCase name="rendering the Bookcard" duration="79"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/icons/icons.test.tsx">
+    <testCase name="icons" duration="20"/>
+    <testCase name="search" duration="5"/>
+    <testCase name="login" duration="4"/>
+    <testCase name="Downarrow" duration="4"/>
+    <testCase name="uparrow" duration="5"/>
+    <testCase name="time" duration="4"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Marketing&amp;Sales/Marketing&amp;Sales.test.tsx">
+    <testCase name="rendering the Logo" duration="20"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/pages/Entrepreneurship/Entrepreneurship.test.tsx">
+    <testCase name="Banner" duration="61"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/CorporateCulture/CorporateCulture.test.tsx">
+    <testCase name="rendering the Logo" duration="84"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/DownArrow/DownArrow.test.tsx">
+    <testCase name="rendering the Logo" duration="36"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Nature&amp;Environment/Nature&amp;Environment.test.tsx">
+    <testCase name="rendering the Logo" duration="58"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/CommunicationSkills/CommunicationSkills.test.tsx">
+    <testCase name="rendering the Logo" duration="23"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Psychology/Psychology.test.tsx">
+    <testCase name="rendering the Logo" duration="50"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/History/History.test.tsx">
+    <testCase name="rendering the Logo" duration="25"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Health&amp;Nutrition/Health&amp;Nutrition.test.tsx">
+    <testCase name="rendering the Logo" duration="34"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Education/Education.test.tsx">
+    <testCase name="rendering the Logo" duration="17"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Time/Time.test.tsx">
+    <testCase name="rendering the Logo" duration="15"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Motivation&amp;Inspiration/Motivation&amp;Inspiration.test.tsx">
+    <testCase name="rendering the Logo" duration="20"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/PersonalDevelopment/PersonalDevelopment.test.tsx">
+    <testCase name="rendering the Logo" duration="16"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Science/Science.test.tsx">
+    <testCase name="rendering the Logo" duration="18"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/UpArrow/UpArrow.test.tsx">
+    <testCase name="rendering the Logo" duration="20"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Economics/Economics.test.tsx">
+    <testCase name="rendering the Logo" duration="18"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Politics/Politics.test.tsx">
+    <testCase name="rendering the Logo" duration="14"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Search/Search.test.tsx">
+    <testCase name="rendering the Logo" duration="16"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Career&amp;Success/Career&amp;Success.test.tsx">
+    <testCase name="rendering the Logo" duration="15"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Entrepreneurship/Entrepreneurship.test.tsx">
+    <testCase name="rendering the Logo" duration="15"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Productivity/Productivity.test.tsx">
+    <testCase name="rendering the Logo" duration="12"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/GirlStudying/GirlStudying.test.tsx">
+    <testCase name="rendering the Logo" duration="34"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Money&amp;Investments/Money&amp;Investments.test.tsx">
+    <testCase name="rendering the Logo" duration="15"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Sex&amp;Relationship/Sex&amp;Relationship.test.tsx">
+    <testCase name="rendering the Logo" duration="24"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/Login/Login.test.tsx">
+    <testCase name="rendering the Logo" duration="20"/>
+  </file>
+  <file path="/home/divyag/Documents/my-app/src/components/atoms/Icons/BlinkistLogo/BlinkistLogo.test.tsx">
+    <testCase name="rendering the Logo" duration="11"/>
+  </file>
+</testExecutions>

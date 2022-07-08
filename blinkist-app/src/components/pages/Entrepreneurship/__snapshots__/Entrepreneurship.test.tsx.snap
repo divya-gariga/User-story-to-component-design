@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot for Entrepreneurship page 1`] = `
+<div
+  style={
+    Object {
+      "padding": "20px 18.33% 76px 18.33%",
+    }
+  }
+>
+  <div
+    className="MuiBox-root css-j7qwjs"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container css-buswvo-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-9 css-b1im03-MuiGrid-root"
+      >
+        <div
+          className="css-1p62k78-MuiStack-root"
+        >
+          <h2
+            className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+            style={
+              Object {
+                "fontSize": "36px",
+                "fontStyle": "normal",
+                "fontWeight": 700,
+                "lineWeight": "45px",
+              }
+            }
+          >
+            Explore books on entrepreneurship
+          </h2>
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-1b23ijh-MuiTypography-root"
+            style={
+              Object {
+                "color": "grey",
+                "fontFamily": "CeraProLight",
+                "fontSize": "18px",
+                "fontStyle": "normal",
+                "fontWeight": 400,
+                "lineHeight": "23px",
+              }
+            }
+          >
+            Everything you need to know about thriving on a shoestring budget, making your first million, and hiring right from the start.
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-md-3 css-17ss7la-MuiGrid-root"
+      >
+        <img
+          src="GirlStudying.svg"
+        />
+      </div>
+    </div>
+    <div
+      style={
+        Object {
+          "color": "#6D787E",
+          "fontSize": "24px",
+          "fontStyle": "normal",
+          "fontWeight": "700",
+          "lineHeight": "30px",
+          "paddingTop": "58px",
+        }
+      }
+    >
+      <div
+        className="MuiFormControl-root MuiTextField-root css-hecfuy-MuiFormControl-root-MuiTextField-root"
+        data-testid="search"
+        style={
+          Object {
+            "fontFamily": "CeraProMedium",
+          }
+        }
+      >
+        <div
+          className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart css-1480iag-MuiInputBase-root-MuiInput-root"
+          onClick={[Function]}
+        >
+          <div
+            className="MuiInputAdornment-root MuiInputAdornment-positionStart MuiInputAdornment-standard MuiInputAdornment-sizeMedium css-ittuaa-MuiInputAdornment-root"
+          >
+            <span
+              className="notranslate"
+            >
+              ​
+            </span>
+            <img
+              alt="search"
+              src="Search.svg"
+            />
+          </div>
+          <input
+            aria-invalid={false}
+            autoFocus={false}
+            className="MuiInput-input MuiInputBase-input MuiInputBase-inputAdornedStart css-1x51dt5-MuiInputBase-input-MuiInput-input"
+            disabled={false}
+            id="input-with-icon-textfield"
+            onAnimationStart={[Function]}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            placeholder="Search by title or author"
+            required={false}
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-8faadc-MuiTypography-root"
+      style={
+        Object {
+          "color": "#03314B",
+          "fontFamily": "CeraProBold",
+          "fontSize": "24px",
+          "fontStyle": "normal",
+          "lineHeight": "30px",
+        }
+      }
+    >
+      Trending Blinks
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-vf96d6-MuiGrid-root"
+      data-testid="trendingBlinks"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1wh0av9-MuiTypography-root"
+      style={
+        Object {
+          "color": "#03314B",
+          "fontFamily": "CeraProBold",
+          "fontSize": "24px",
+          "fontStyle": "normal",
+          "lineHeight": "30px",
+        }
+      }
+    >
+      Just Added
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-vf96d6-MuiGrid-root"
+      data-testid="justAddedBlinks"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-1wh0av9-MuiTypography-root"
+      style={
+        Object {
+          "color": "#03314B",
+          "fontFamily": "CeraProBold",
+          "fontSize": "24px",
+          "fontStyle": "normal",
+          "lineHeight": "30px",
+        }
+      }
+    >
+      Featured Audio Books
+    </p>
+    <div
+      className="MuiGrid-root MuiGrid-container css-vf96d6-MuiGrid-root"
+      data-testid="featuredBlinks"
+    />
+  </div>
+</div>
+`;
