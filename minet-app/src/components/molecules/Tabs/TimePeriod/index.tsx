@@ -9,7 +9,6 @@ const TimePeriod = () => {
             <Typography>1M</Typography>
             <Typography>1Y</Typography>
             <Typography>ALL</Typography>
-
         </div>
     );
 };
