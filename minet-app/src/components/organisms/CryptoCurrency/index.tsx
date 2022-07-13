@@ -6,13 +6,16 @@ function CryptoCurrency() {
     function getAllCoinCurrencies(){
         //get all coin currencies
     }
+    function handleClick(){
+        
+    }
     useEffect(()=>{
         getAllCoinCurrencies();
     },[])
     return (
         <div>
              {allCoinCurrencies.map((coin)=>
-                        <PaymentCrypto currencyType={"crypto currency"} amount={0}/>
+                        <PaymentCrypto currencyType={"crypto currency"} amount={0} onClick={handleClick}/>
                         )
             }
         </div>
