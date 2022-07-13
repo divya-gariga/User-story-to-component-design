@@ -1,5 +1,6 @@
-import { Typography } from '@mui/material';
+import { List, Typography } from '@mui/material';
 import React, { useEffect,useState } from 'react';
+import PieChartIcon from '../../atoms/PieChartIcon';
 
 function MyPortfolio() {
     const [investmentsInfo,setInvestmentsInfo]=useState([{}]);
@@ -19,6 +20,9 @@ function MyPortfolio() {
     },[])
     return (
         <div>
+            <Typography>My Portfolio</Typography>
+            <PieChartIcon/>
+            <List/>
             {investmentsInfo.map((coin)=>{
                 return (<div>
                 <img src="coinImg"/>

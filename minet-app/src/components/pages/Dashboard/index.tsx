@@ -1,6 +1,6 @@
 import React from 'react';
 import CurrencyChips from '../../molecules/CurrencyChips';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import DashboardRightPanel from '../../organisms/DashboardRightPanel';
 import Footer from '../../organisms/Footer';
 import Header from '../../organisms/Header';
@@ -11,7 +11,7 @@ function Dashboard() {
     return (
         <div>
             <Header/>
-            <NavigationBar/>
+            <NavigationPanel/>
             <Watchlist/>
             <MyPortfolioValue coinCurrency={''}/>
             <DashboardRightPanel/>

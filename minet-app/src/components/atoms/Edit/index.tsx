@@ -1,12 +1,9 @@
 import React from 'react';
-import { Typography } from '@mui/material';
 
-const Grid = () => {
+const Edit = () => {
     return (
-        <div>
-            <Typography>Grid</Typography>
-        </div>
+      <img src="" alt="edit icon"/>
     );
 };
 
-export default Grid;
+export default Edit;

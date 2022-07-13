@@ -3,9 +3,7 @@ import { Typography } from '@mui/material';
 
 const Notification = () => {
     return (
-        <div>
-            <Typography>Notification</Typography>
-        </div>
+       <img src="" alt="notification icon"/>
     );
 };
 

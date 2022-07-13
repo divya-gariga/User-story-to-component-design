@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 const Logout = () => {
     return (
         <div>
-            <Typography>Logout</Typography>
+          <img src="" alt="logout icon"/>
         </div>
     );
 };

@@ -4,7 +4,7 @@ import TickMark from '../../atoms/TickMark';
 import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
 import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
 import AmountDetails from '../../organisms/AmountDetails';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import CryptoCurrency from '../../organisms/CryptoCurrency';
 import DeliveryFee from '../../organisms/DeliveryFee';
 import Footer from '../../organisms/Footer';
@@ -32,7 +32,7 @@ function Purchase() {
     return (
         <div>
             <Header/>
-            <NavigationBar/>
+            <NavigationPanel/>
             {isPaymentSuccess==false}?(
             <CryptoCurrency/>
             <PaymentMethods userId={1} onChange={(pMethod)=>setPaymentMethod(pMethod)} />

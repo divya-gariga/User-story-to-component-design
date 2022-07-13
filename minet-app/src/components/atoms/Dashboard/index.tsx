@@ -2,9 +2,7 @@ import React from 'react';
 import { Typography } from '@mui/material';
 const Dashboard = () => {
     return (
-        <div>
-            <Typography>Dashboard icon</Typography>
-        </div>
+        <img src="" alt="dashboard icon"/>
     );
 };
 

@@ -3,7 +3,7 @@ import { Typography } from '@mui/material';
 const Logo = () => {
     return (
         <div>
-            <Typography>Minet Logo</Typography>
+            <img src="" alt="Minet Logo"/>
         </div>
     );
 };

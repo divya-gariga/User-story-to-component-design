@@ -1,5 +1,6 @@
 import { Typography } from '@mui/material';
 import React, { useEffect,useState } from 'react';
+import WalletTransactions from '../Tabs/WalletTransactions';
 
 function MyWallets() {
     const [investmentsInfo,setInvestmentsInfo]=useState({});
@@ -22,7 +23,10 @@ function MyWallets() {
             <img src="coinImg"/>
             <Typography>USD Coin</Typography>
             <Typography>us dollar</Typography>
-            <Typography>{totalBalance}</Typography>    
+            <Typography>{totalBalance}</Typography> 
+            <Typography>Recent Transactions</Typography>  
+             {/* render all wallet transaction of user waller */}
+            <WalletTransactions date={''} name={''} amount={0}/> 
         </div>
     );
 }

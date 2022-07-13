@@ -3,9 +3,7 @@ import { TextField, Typography } from '@mui/material';
 
 const Search = () => {
     return (
-        <div>
-            <Typography>Search Icon</Typography>
-        </div>
+        <img src="" alt="search icon"/>
     );
 };
 

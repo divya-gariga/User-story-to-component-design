@@ -2,7 +2,7 @@ import React, { useEffect,useState } from 'react';
 import ColumnHeader from '../../molecules/Columnheader';
 import SearchBar from '../../molecules/Searchbar/Searchbar';
 import TradeTabs from '../../molecules/Tabs/TradeTabs';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import Footer from '../../organisms/Footer';
 import Header from '../../organisms/Header';
 
@@ -18,7 +18,7 @@ function Trade() {
     return (
         <div>
             <Header/>
-            <NavigationBar/>
+            <NavigationPanel/>
             <SearchBar filterIcon={false}/>
             <ColumnHeader/>
             {allCoins.map((coin)=>

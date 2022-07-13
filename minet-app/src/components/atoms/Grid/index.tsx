@@ -3,9 +3,7 @@ import { Typography } from '@mui/material';
 
 const Grid = () => {
     return (
-        <div>
-            <Typography>Grid</Typography>
-        </div>
+       <img src="" alt="grid icon"/>
     );
 };
 

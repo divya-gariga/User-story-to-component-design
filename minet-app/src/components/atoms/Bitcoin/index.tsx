@@ -1,12 +1,11 @@
 import React from 'react';
-import { Typography } from '@mui/material';
 
-const Grid = () => {
+const Bitcoin = () => {
     return (
         <div>
-            <Typography>Grid</Typography>
+            <img alt="bitcoin img" src=""/>
         </div>
     );
 };
 
-export default Grid;
+export default Bitcoin;

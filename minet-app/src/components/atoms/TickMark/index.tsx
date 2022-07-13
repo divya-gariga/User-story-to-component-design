@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 const TickMark = () => {
     return (
         <div>
-            <Typography>Grid</Typography>
+            <img src="" alt="tickmar icon"/>
         </div>
     );
 };

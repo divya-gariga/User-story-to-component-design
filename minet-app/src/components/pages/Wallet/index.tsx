@@ -1,5 +1,5 @@
 import React, { useEffect,useState } from 'react';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import WatchlistBar from '../../organisms/bars/WatchlistBar';
 import Footer from '../../organisms/Footer';
 import Header from '../../organisms/Header';
@@ -21,7 +21,7 @@ function Wallet() {
     return (
         <div>
           <Header/>
-          <NavigationBar/>
+          <NavigationPanel/>
           <WatchlistBar userId={1} currencyType={'cash'} currencyId={0}/>
           <Typography>Total balance</Typography> 
                {/* get total balance of wallet */}

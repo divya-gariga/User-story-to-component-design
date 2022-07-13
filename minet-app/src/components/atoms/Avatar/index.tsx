@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Avatar() {
+const Avatar = () => {
     return (
         <div>
-            <img alt='user avatar'></img>
+            <img alt='user avatar' src=""></img>
         </div>
     );
-}
+};
 
 export default Avatar;

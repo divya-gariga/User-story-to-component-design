@@ -3,9 +3,7 @@ import { Typography } from '@mui/material';
 
 const Portfolio = () => {
     return (
-        <div>
-            <Typography>Portfolio icon</Typography>
-        </div>
+        <img src="" alt="portfolio icon"/>
     );
 };
 

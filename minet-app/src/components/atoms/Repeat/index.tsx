@@ -3,9 +3,7 @@ import { Typography } from '@mui/material';
 
 const Repeat = () => {
     return (
-        <div>
-            <Typography>Grid</Typography>
-        </div>
+        <img src="" alt="repeat icon"/>
     );
 };
 

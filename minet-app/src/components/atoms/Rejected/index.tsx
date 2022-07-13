@@ -1,12 +1,9 @@
 import React from 'react';
-import { Typography } from '@mui/material';
 
-const Grid = () => {
+const Rejected = () => {
     return (
-        <div>
-            <Typography>Grid</Typography>
-        </div>
+        <img src="" alt="rejected icon"/>
     );
 };
 
-export default Grid;
+export default Rejected;

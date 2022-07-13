@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react';
 import { Typography } from '@mui/material';
 import AmountDetails from '../../organisms/AmountDetails';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import TickMark from '../../atoms/TickMark';
 import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
 import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
@@ -34,7 +34,7 @@ function Sell() {
     return (
         <div>
             <Header/>
-            <NavigationBar/>
+            <NavigationPanel/>
             {isPaymentSuccess==false}?(
             <CryptoCurrency/>
             <TotalBalance userId={1} currencyId={0}/> 

@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 const StarFill = () => {
     return (
         <div>
-            <Typography>StarFill icon</Typography>
+            <img src="" alt="starfill icon" />
         </div>
     );
 };

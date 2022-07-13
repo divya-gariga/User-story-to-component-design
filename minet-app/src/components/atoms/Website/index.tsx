@@ -1,12 +1,11 @@
 import React from 'react';
-import { Typography } from '@mui/material';
 
-const Grid = () => {
+const Website = () => {
     return (
         <div>
-            <Typography>Grid</Typography>
+            <img src="" alt="Website icon" />
         </div>
     );
 };
 
-export default Grid;
+export default Website;

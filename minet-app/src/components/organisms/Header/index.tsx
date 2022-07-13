@@ -9,7 +9,9 @@ function Header() {
         <div>
             <Typography>Dashboard</Typography>
             <TertiaryButton buttonContent='Sell'/>
-            <PrimaryButton icon={''} buttonContent={'Buy'}></PrimaryButton>
+            <PrimaryButton icon={''} buttonContent={'Buy'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+            } }></PrimaryButton>
             <AccountDropdown/>
         </div>
     );

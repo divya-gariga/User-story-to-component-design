@@ -1,6 +1,8 @@
-import { Typography } from '@mui/material';
+import { Grid, List, Typography } from '@mui/material';
 import { responsePathAsArray } from 'graphql';
 import React, { useEffect, useState } from 'react';
+import Edit from '../../atoms/Edit';
+import WatchlistCard from '../../molecules/WatchlistCard';
 
 function Watchlist() {
     const [watchListData, setWatchListData] = useState([{}]);
@@ -24,11 +26,14 @@ function Watchlist() {
         <div>
             <Typography>Watchlist</Typography>
             <a href="#">Discover assets</a>
+            {/* goto trade screen */}
+
             {/* {miscellaneous icons } */}
+            <Edit/>
+            <Grid/>
+            <List/>
             {/* {render each watchlist data} */}
-            <Typography>Currency</Typography>
-            <Typography>Currency value</Typography>
-            {/* {graph} */}
+            <WatchlistCard currencyName={''} currencyValue={0} netChange={0}/>
         </div>
     );
 }

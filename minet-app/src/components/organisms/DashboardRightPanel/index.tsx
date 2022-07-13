@@ -1,3 +1,4 @@
+import { Typography } from '@mui/material';
 import React from 'react';
 import MyPortfolio from '../../molecules/MyPortfolio';
 import MyWallets from '../../molecules/MyWallets';

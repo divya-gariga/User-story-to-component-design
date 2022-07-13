@@ -1,5 +1,5 @@
 import React from 'react';
-import NavigationBar from '../../organisms/bars/NavigationBar';
+import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import WatchlistBar from '../../organisms/bars/WatchlistBar';
 import Footer from '../../organisms/Footer';
 import Header from '../../organisms/Header';
@@ -10,7 +10,7 @@ function CurrencyDetail(props:{currencyId:number,userId:number, walletId:number}
     return (
         <div>
             <Header/>
-            <NavigationBar/>
+            <NavigationPanel/>
             <WatchlistBar userId={1} currencyType={'crypto'} currencyId={currencyId}/>
             <DetailsTabs userId={1} currencyId={currencyId} walletId={walletId}/>
             <Footer/>
