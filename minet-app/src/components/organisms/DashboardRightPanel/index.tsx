@@ -1,0 +1,15 @@
+import { Typography } from '@mui/material';
+import React from 'react';
+import MyPortfolio from '../../molecules/MyPortfolio';
+import MyWallets from '../../molecules/MyWallets';
+
+const DashboardRightPanel=()=>{
+    return (
+        <div>
+            <MyPortfolio/>
+            <MyWallets/>
+        </div>
+    );
+}
+
+export default DashboardRightPanel;
