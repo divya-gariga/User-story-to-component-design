@@ -1,8 +1,8 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
+import PrimaryButton from '../../molecules/Buttons';
 
-function OrderSummary(props:{transactionType:string,paymentMethod:any[],deliveryFees:number,amount:number,currencyId:number,onClickHandler:()=>any}) {
+const OrderSummary=(props:{transactionType:string,paymentMethod:any[],deliveryFees:number,amount:number,currencyId:number,onClickHandler:()=>any}) => {
     const {transactionType,paymentMethod,deliveryFees,amount,currencyId,onClickHandler}=props
     return (
         <>
@@ -21,7 +21,10 @@ function OrderSummary(props:{transactionType:string,paymentMethod:any[],delivery
             <Typography>Minet fee: 1000 </Typography>
             <Typography>Total :{}</Typography>
             {/* calculate total */}
-            <PrimaryButton icon={''} buttonContent={'BUY NOW'} onClickHandler={onClickHandler} ></PrimaryButton>
+            <PrimaryButton icon={''} buttonContent={'BUY NOW'} 
+            onClickHandler={onClickHandler} variant="contained" 
+            color="primary"
+             ></PrimaryButton>
             )
             :
            ( <Typography>you are selling</Typography>
@@ -36,7 +39,9 @@ function OrderSummary(props:{transactionType:string,paymentMethod:any[],delivery
             <Typography>Minet fee: 1000 </Typography>
             <Typography>Total :{}</Typography>
             {/* calculate total */}
-            <PrimaryButton icon={''} buttonContent={'SELL NOW'} onClickHandler={onClickHandler}></PrimaryButton>)
+            <PrimaryButton icon={''} buttonContent={'SELL NOW'}
+             onClickHandler={onClickHandler} variant="contained" 
+             color="primary"/>)
         </div>
         </>
     );

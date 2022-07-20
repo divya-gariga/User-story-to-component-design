@@ -8,7 +8,7 @@ import DetailsTabs from '../../organisms/Tabs';
 import WalletTransactions from '../../molecules/Tabs/WalletTransactions';
 import { Typography } from '@mui/material';
 
-function Wallet() {
+const Wallet=()=> {
     const [walletDetails,setWalletDetails]=useState([{}]);
     function getWalletDetails(){
         //get wallet details of selected crypto currency
@@ -26,7 +26,7 @@ function Wallet() {
           <Typography>Total balance</Typography> 
                {/* get total balance of wallet */}
                 {walletDetails.map(wallet=>
-                    <WalletTransactions date={"wallet.transactiondata"} name={"username"} amount={0}/>
+                    <WalletTransactions date={"wallet.transactiondata"} name={"username"} amount={0} src={'tickmark.jpg'} label={'Received Bitcoin'}/>
                     )}
           <Footer/>
         </div>

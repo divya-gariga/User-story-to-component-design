@@ -1,5 +1,5 @@
 import React from 'react';
-import CurrencyChips from '../../molecules/CurrencyChips';
+import Button from '../../molecules/Buttons';
 import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import DashboardRightPanel from '../../organisms/DashboardRightPanel';
 import Footer from '../../organisms/Footer';
@@ -7,7 +7,7 @@ import Header from '../../organisms/Header';
 import MyPortfolioValue from '../../organisms/MyPortfolioValue';
 import Watchlist from '../../organisms/Watchlist';
 
-function Dashboard() {
+const Dashboard=() => {
     return (
         <div>
             <Header/>
@@ -15,7 +15,9 @@ function Dashboard() {
             <Watchlist/>
             <MyPortfolioValue coinCurrency={''}/>
             <DashboardRightPanel/>
-            <CurrencyChips label={''}/>
+            <Button icon={''} buttonContent={'currencyname'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+            } }/>
             <Footer/>
         </div>
     );

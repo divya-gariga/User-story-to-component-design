@@ -1,14 +1,14 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import TickMark from '../../../atoms/TickMark';
+import Icon from '../../../atoms/Icon';
 
-function WalletTransactions(props:{date:string, name: string,amount:number}) {
+const WalletTransactions=(props:{src:string,label:string,date:string, name: string,amount:number}) => {
     return (
         <div>
-            <TickMark/>
+            <Icon src={props.src}/>
             <Typography>{props.date}</Typography>
-            <Typography>Received Bitcoin</Typography>
-            <Typography variant='caption'>{props.name}</Typography>
+            <Typography>{props.label}</Typography>
+            <Typography >{props.name}</Typography>
             <Typography>{props.amount}</Typography>
         </div>
     );

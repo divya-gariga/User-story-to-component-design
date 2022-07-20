@@ -3,7 +3,7 @@ import React from 'react';
 import MyPortfolio from '../../molecules/MyPortfolio';
 import MyWallets from '../../molecules/MyWallets';
 
-function DashboardRightPanel() {
+const DashboardRightPanel=()=>{
     return (
         <div>
             <MyPortfolio/>

@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-function PaymentCards(props:{cardNumber:number,cardName:string,lastUsedDate:number,onClick:()=>void}) {
+const PaymentCards=(props:{cardNumber:number,cardName:string,lastUsedDate:number,onClick:()=>void}) =>{
     return (
         <div>
             <Typography>Ending: {props.cardNumber}</Typography>

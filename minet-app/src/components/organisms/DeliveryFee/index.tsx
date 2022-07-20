@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import React, { useState } from 'react';
 
-function DeliveryFee(props:{onChange:(args:any)=>any}) {
+const DeliveryFee=(props:{onChange:(args:any)=>any})=> {
 const [deliveryFee,setDeliveryFee]=useState(0);
 const [value,setValue]=useState('');
 const handleChange=(event: { target: { value: React.SetStateAction<string>; }; })=>{

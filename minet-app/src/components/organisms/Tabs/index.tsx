@@ -6,7 +6,7 @@ import {TabPanel} from '@mui/lab';
 import { Typography } from '@mui/material';
 import TimePeriod from '../../molecules/Tabs/TimePeriod';
 import WalletTransactions from '../../molecules/Tabs/WalletTransactions';
-function DetailsTabs(props:{userId:number,currencyId:number,walletId:number }) {
+const DetailsTabs=(props:{userId:number,currencyId:number,walletId:number }) =>{
     const [value, setValue] = React.useState('one');
     const [coin,setCoin]=useState([{}]);
     const [walletDetails,setWalletDetails]=useState([{}]);
@@ -23,6 +23,9 @@ function DetailsTabs(props:{userId:number,currencyId:number,walletId:number }) {
         //make an api call using walletId of that user
         //setWalletDetails();
     }
+    const onClickHandler=(timeperiod:string)=>{
+        // draw graph for specified timeperiod
+    }
     useEffect(()=>{
         getCryptoCurrenyDetails();
     },[])
@@ -38,7 +41,7 @@ function DetailsTabs(props:{userId:number,currencyId:number,walletId:number }) {
                 <Box>
                     <Typography>Current Value</Typography>
                     {/* crypto currency value {coin value} */} 
-                    <TimePeriod/>
+                    <TimePeriod onClick={(timeperiod)=>onClickHandler(timeperiod) }/>
                     {/* Graph */}
                     {/* Overview about selected crypto currency and its resources links */}
                     <Typography>crypto currency description</Typography>
@@ -48,7 +51,7 @@ function DetailsTabs(props:{userId:number,currencyId:number,walletId:number }) {
                <Typography>Total balance</Typography> 
                {/* get total balance of wallet */}
                 {walletDetails.map(wallet=>
-                    <WalletTransactions date={"wallet.transactiondata"} name={"username"} amount={0}/>
+                    <WalletTransactions date={"wallet.transactiondata"} name={"username"} amount={0} src={'tickmark.jpg'} label={'currency name'}/>
                     )}
             </TabPanel>
         </Box>

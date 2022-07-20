@@ -2,7 +2,7 @@ import { Typography } from '@mui/material';
 import React, { useEffect,useState } from 'react';
 import WalletTransactions from '../Tabs/WalletTransactions';
 
-function MyWallets() {
+const MyWallets=()=> {
     const [investmentsInfo,setInvestmentsInfo]=useState({});
     const [totalBalance,setTotalBalance]=useState(0);
     function getUserInvestmentsByCash(){
@@ -26,7 +26,7 @@ function MyWallets() {
             <Typography>{totalBalance}</Typography> 
             <Typography>Recent Transactions</Typography>  
              {/* render all wallet transaction of user waller */}
-            <WalletTransactions date={''} name={''} amount={0}/> 
+            <WalletTransactions src="tickmark.jpg" date={''} name={''} amount={0} label={'Received Bitcoin'}/> 
         </div>
     );
 }

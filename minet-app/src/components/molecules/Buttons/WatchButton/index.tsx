@@ -1,10 +1,10 @@
 import { IconButton, } from '@mui/material';
 import { assertValidExecutionArguments } from 'graphql/execution/execute';
 import React, { useState } from 'react';
-import StarFill from '../../../atoms/StarFill';
-import StarLine from '../../../atoms/StarLine';
+import Star from '../../../atoms/Star';
+import StarFill from '../../../atoms/Star';
 
-function WatchButton(props:{isInWatchList:boolean,userId:number, currencyEntryId:number}) {
+const WatchButton=(props:{isInWatchList:boolean,userId:number, currencyEntryId:number})=> {
     const [isClicked,setIsClicked]=useState(false);
     const {isInWatchList}=props;
     const toggleStar=()=>{
@@ -18,7 +18,7 @@ function WatchButton(props:{isInWatchList:boolean,userId:number, currencyEntryId
     return (
         <div >
             <IconButton onClick={()=>{toggleStar(); }}>
-            {(isClicked||isInWatchList)?<StarFill/>:<StarLine/>}
+            {(isClicked||isInWatchList)?<Star fill={true}/>:<Star fill={false}/>}
             </IconButton>
         </div>
     );

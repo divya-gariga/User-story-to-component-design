@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PaymentCrypto from '../../molecules/PaymentCrypto';
 
-function CryptoCurrency() {
+const CryptoCurrency=()=> {
     const [allCoinCurrencies,setAllCoinCurrencies]=useState([]);
     function getAllCoinCurrencies(){
         //get all coin currencies

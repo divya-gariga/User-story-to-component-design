@@ -2,9 +2,8 @@ import React,{useEffect,useState} from 'react';
 import { Typography } from '@mui/material';
 import AmountDetails from '../../organisms/AmountDetails';
 import NavigationPanel from '../../organisms/bars/NavigationPanel';
-import TickMark from '../../atoms/TickMark';
-import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
-import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
+import TickMark from '../../atoms/Icon';
+import PrimaryButton from '../../molecules/Buttons';
 import CryptoCurrency from '../../organisms/CryptoCurrency';
 import DeliveryFee from '../../organisms/DeliveryFee';
 import DepositToRupee from '../../organisms/DepositToRupeeCoin';
@@ -14,7 +13,7 @@ import OrderSummary from '../../organisms/OrderSummary';
 import PaymentMethods from '../../organisms/PaymentMethod';
 import TotalBalance from '../../organisms/TotalBalance';
 
-function Sell() {
+const Sell=()=> {
     const [allCoinCurrencies,setAllCoinCurrencies]=useState([]);
     const [deliveryFee,setDeliveryFee]=useState(0.001);
     const [isPaymentSuccess,setIsPaymentSuccess]=useState(false);
@@ -43,13 +42,16 @@ function Sell() {
             <OrderSummary transactionType={'sell'} paymentMethod={[]} deliveryFees={deliveryFee} amount={amount} currencyId={0} onClickHandler={()=>showIfPaymentSuccessfull()}/>
             )
             :(
-                <TickMark/>
+                <TickMark src="tickmark.jpg"/>
                 <Typography>{amount}</Typography>
                 <Typography>
                     Sell is completed, please check your balance in your Rupee Coin
                 </Typography>
-                <SecondaryButton icon={''} buttonContent={'SELL CRYPTO'}/>
-                <PrimaryButton icon={''} buttonContent={'GO TO USD COIN'} onClickHandler={function (arg: any) {
+                <PrimaryButton variant="outlined" color="primary" icon={''} buttonContent={'SELL CRYPTO'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+                // show success page on success
+            } }/>
+                <PrimaryButton variant="contained" color="primary" icon={''} buttonContent={'GO TO USD COIN'} onClickHandler={function (arg: any) {
                 throw new Error('Function not implemented.');
                 // go to users wallet screen
             } }/>   

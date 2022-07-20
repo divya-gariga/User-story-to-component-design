@@ -1,7 +1,7 @@
 import React from 'react';
 import NavigationBar from '../../../molecules/NavigationBar';
 
-function NavigationPanel() {
+const NavigationPanel=() =>{
     return (
         <div>
             <NavigationBar/>

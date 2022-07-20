@@ -1,17 +1,21 @@
 import React from 'react';
+import Table from '@mui/material/Table';
+import { TableHead, TableRow, TableCell } from '@mui/material';
 
 const ColumnHeader = () => {
     return (
         <div>
-            <table>
-                <thead>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Change</th>
-                    <th>Market Cap</th>
-                    <th>Watch</th>
-                </thead>
-            </table>
+            <Table>
+                <TableHead>
+                    <TableRow>
+                        <TableCell>Name</TableCell>
+                        <TableCell>Price</TableCell>
+                        <TableCell>Change</TableCell>
+                        <TableCell>Market Cap</TableCell>
+                        <TableCell>Watch</TableCell>
+                    </TableRow>
+                </TableHead>
+            </Table>
         </div>
     );
 };

@@ -1,8 +1,8 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
+import PrimaryButton from '../../molecules/Buttons';
 
-function Footer() {
+const Footer=() =>{
     return (
         <div>
             
@@ -11,7 +11,9 @@ function Footer() {
                 <Typography>Legal and privacy</Typography>
                 <Typography> 2021 Minet</Typography>
                 <Typography>English</Typography>
-                <SecondaryButton icon={''} buttonContent={'NEED HELP'}/>
+                <PrimaryButton variant="outlined" color="primary" icon={''} buttonContent={'NEED HELP'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+            } }/>
         </div>
     );
 }

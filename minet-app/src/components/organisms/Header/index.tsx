@@ -1,18 +1,21 @@
 import { Typography } from '@mui/material';
 import React from 'react';
-import AccountDropdown from '../../molecules/AccountDropdown';
-import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
-import TertiaryButton from '../../molecules/Buttons/TertiaryButton';
+import UserAccountMenu from '../../molecules/UserAccountMenu';
+import PrimaryButton from '../../molecules/Buttons';
 
-function Header() {
+const Header=() =>{
     return (
         <div>
             <Typography>Dashboard</Typography>
-            <TertiaryButton buttonContent='Sell'/>
-            <PrimaryButton icon={''} buttonContent={'Buy'} onClickHandler={function (arg: any) {
+            <PrimaryButton variant="contained" buttonContent='Sell' icon={''} onClickHandler={function (arg: any) {
                 throw new Error('Function not implemented.');
+                // go to sell screen 
+            } }/>
+            <PrimaryButton variant="contained" color="primary" icon={''} buttonContent={'Buy'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+                // go to purchase screen 
             } }></PrimaryButton>
-            <AccountDropdown/>
+            <UserAccountMenu/>
         </div>
     );
 }

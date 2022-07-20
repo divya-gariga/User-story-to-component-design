@@ -5,7 +5,7 @@ import Footer from '../../organisms/Footer';
 import Header from '../../organisms/Header';
 import DetailsTabs from '../../organisms/Tabs';
 
-function CurrencyDetail(props:{currencyId:number,userId:number, walletId:number}) {
+const CurrencyDetail=(props:{currencyId:number,userId:number, walletId:number})=> {
     const {currencyId,userId, walletId}=props;
     return (
         <div>

@@ -1,8 +1,8 @@
 import { Typography } from '@mui/material';
 import React,{useState} from 'react';
-import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
+import Button from '../../molecules/Buttons';
 
-function AmountDetails(props:{transactionType:string,onChange:(args:any)=>any}) {
+const AmountDetails= (props:{transactionType:string,onChange:(args:any)=>any}) => {
     const [amount,setAmount]=useState(0)
     const {transactionType}=props
     const handleChange=(event: { target: { value: React.SetStateAction<string>; }; })=>{
@@ -11,9 +11,13 @@ function AmountDetails(props:{transactionType:string,onChange:(args:any)=>any}) 
     }
     let button=null;
     if(transactionType==="sell")
-    button=<SecondaryButton icon={''} buttonContent={'Sell max'}/> 
+    button=<Button icon={''} buttonContent={'Sell max'} onClickHandler={function (arg: any) {
+        throw new Error('Function not implemented.');
+    } }/> 
     else
-    button=<SecondaryButton icon={''} buttonContent={'Buy max'}/> 
+    button=<Button icon={''} buttonContent={'Buy max'} onClickHandler={function (arg: any) {
+        throw new Error('Function not implemented.');
+    } }/> 
     return (
         <div>
             <Typography>Amount details</Typography>
@@ -22,7 +26,6 @@ function AmountDetails(props:{transactionType:string,onChange:(args:any)=>any}) 
              {/* {slider icon} */}
             <input type="number" value={amount} onChange={handleChange}  />    
             {/* calculate crypto current amount to sell or buy*/}
-                    
             {/* wallet amount/1 bit coin's price */}
         </div>
     );

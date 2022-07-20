@@ -2,7 +2,7 @@ import { Typography } from '@mui/material';
 import React from 'react';
 import Arrow from '../../atoms/Arrow';
 
-function WatchlistCard(props: { currencyName: string, currencyValue: number, netChange: number }) {
+const WatchlistCard= (props: { currencyName: string, currencyValue: number, netChange: number }) => {
     return (
         <div>
             <Typography>{props.currencyName}</Typography>

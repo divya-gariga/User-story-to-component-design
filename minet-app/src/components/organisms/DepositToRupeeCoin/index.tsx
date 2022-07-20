@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-function DepositToRupee() {
+const DepositToRupee=()=> {
     return (
         <div>
             <img src="usd coin image"/>

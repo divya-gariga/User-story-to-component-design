@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-function PortfolioCard(props:{currencyType:string,value:number}) {
+const PortfolioCard=(props:{currencyType:string,value:number}) => {
     const {currencyType,value}=props;
     return (
         <div>

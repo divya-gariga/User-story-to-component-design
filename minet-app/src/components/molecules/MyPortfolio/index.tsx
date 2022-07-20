@@ -1,8 +1,8 @@
 import { List, Typography } from '@mui/material';
 import React, { useEffect,useState } from 'react';
-import PieChartIcon from '../../atoms/PieChartIcon';
+import Icon from '../../atoms/Icon';
 
-function MyPortfolio() {
+const MyPortfolio=()=> {
     const [investmentsInfo,setInvestmentsInfo]=useState([{}]);
     const [totalBalance,setTotalBalance]=useState(0);
     function getUserInvestmentsByCryptoCurrency(){
@@ -21,7 +21,7 @@ function MyPortfolio() {
     return (
         <div>
             <Typography>My Portfolio</Typography>
-            <PieChartIcon/>
+            <Icon src="piecharticon.png"/>
             <List/>
             {investmentsInfo.map((coin)=>{
                 return (<div>

@@ -3,7 +3,7 @@ import React from 'react';
 import {useState, useEffect} from 'react'
 import PaymentCards from '../../molecules/PaymentCards';
 
-function PaymentMethods(props:{userId: number,onChange:(args:any)=>any}) {
+const PaymentMethods=(props:{userId: number,onChange:(args:any)=>any})=> {
     const [paymentMethod,setPaymentMethod]=useState([] as any);
     const [allPaymentMethods,setAllPaymentMethods]=useState([]);
     const [cardName,setCardName]=useState("");

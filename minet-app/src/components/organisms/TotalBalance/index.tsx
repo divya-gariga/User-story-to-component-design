@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material';
 import React from 'react';
 
-function TotalBalance(props:{userId:number,currencyId:number}) {
+const TotalBalance=(props:{userId:number,currencyId:number})=> {
     return (
         <div>
             <Typography>Total Balance</Typography>

@@ -1,8 +1,8 @@
 import { Button, Typography } from '@mui/material';
 import React,{useState,useEffect} from 'react';
-import SecondaryButton from '../../../molecules/Buttons/SecondaryButton';
+import PrimaryButton from '../../../molecules/Buttons';
 
-function WatchlistBar(props: { userId:number,currencyType: string,currencyId:number }) {
+const WatchlistBar=(props: { userId:number,currencyType: string,currencyId:number })=> {
     const { currencyType } = props;
     const [coin,setCoin]=useState([{}]);
     function getCryptoCurrencyDetails(){
@@ -20,8 +20,12 @@ function WatchlistBar(props: { userId:number,currencyType: string,currencyId:num
                     <img src="coin image"/>
                     <Typography>coin name</Typography>   
                     {/* coin name */}
-                    <SecondaryButton icon="" buttonContent='CASH DEPOSIT' />
-                    <SecondaryButton icon="" buttonContent='WITHDRAWL'></SecondaryButton>
+                    <PrimaryButton variant="outlined" color="primary" icon="" buttonContent='CASH DEPOSIT' onClickHandler={function (arg: any) {
+                        throw new Error('Function not implemented.');
+                    } } />
+                    <PrimaryButton variant="outlined" color="primary" icon="" buttonContent='WITHDRAWL' onClickHandler={function (arg: any) {
+                        throw new Error('Function not implemented.');
+                    } }/>
                 </div> : <>
                     {/* for the given currency(crypto currency) render value change,
              market capital vol of 24h and circulating supply frome the api */}
@@ -31,7 +35,9 @@ function WatchlistBar(props: { userId:number,currencyType: string,currencyId:num
                     <Typography> Market capital</Typography>
                     <Typography> Vol. 24H</Typography>
                     <Typography> Circulating supply</Typography>
-                    <SecondaryButton icon="star" buttonContent='ADDED TO WATCHLIST' />
+                    <PrimaryButton variant="outlined" color="primary" icon="star" buttonContent='ADDED TO WATCHLIST' onClickHandler={function (arg: any) {
+                            throw new Error('Function not implemented.');
+                        } } />
                 </>
             }
         </>

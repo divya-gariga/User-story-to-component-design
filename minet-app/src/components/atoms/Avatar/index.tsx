@@ -1,9 +1,10 @@
 import React from 'react';
+import AvatarIcon from '@mui/material/Avatar';
 
 const Avatar = () => {
     return (
         <div>
-            <img alt='user avatar' src=""></img>
+            <AvatarIcon alt="avatar" src="" />
         </div>
     );
 };

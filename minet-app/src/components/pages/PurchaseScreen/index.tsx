@@ -1,8 +1,7 @@
 import { Typography } from '@mui/material';
 import React,{useEffect,useState} from 'react';
-import TickMark from '../../atoms/TickMark';
-import PrimaryButton from '../../molecules/Buttons/PrimaryButton';
-import SecondaryButton from '../../molecules/Buttons/SecondaryButton';
+import TickMark from '../../atoms/Icon';
+import PrimaryButton from '../../molecules/Buttons';
 import AmountDetails from '../../organisms/AmountDetails';
 import NavigationPanel from '../../organisms/bars/NavigationPanel';
 import CryptoCurrency from '../../organisms/CryptoCurrency';
@@ -12,7 +11,7 @@ import Header from '../../organisms/Header';
 import OrderSummary from '../../organisms/OrderSummary';
 import PaymentMethods from '../../organisms/PaymentMethod';
 
-function Purchase() {
+const Purchase=()=> {
     const [allCoinCurrencies,setAllCoinCurrencies]=useState([]);
     const [isPaymentSuccess,setIsPaymentSuccess]=useState(false);
     const [deliveryFee,setDeliveryFee]=useState(0);
@@ -41,13 +40,16 @@ function Purchase() {
             <DeliveryFee onChange={(fee)=>setDeliveryFee(fee)}/>)
             :
             (
-                <TickMark/>
+                <TickMark src="tickmark.jpg"/>
                 <Typography>{amount}</Typography>
                 <Typography>
                     Purchase is completed, please check your balance in your crypto waller
                 </Typography>
-                <SecondaryButton icon={''} buttonContent={'BUY CRYPTO'}/>
-                <PrimaryButton icon={''} buttonContent={'GO TO USD COIN'} onClickHandler={function (arg: any) {
+                <PrimaryButton variant="outlined" color="primary" icon={''} buttonContent={'BUY CRYPTO'} onClickHandler={function (arg: any) {
+                throw new Error('Function not implemented.');
+                // show success page on success
+            } }/>
+                <PrimaryButton variant="contained" color="primary" icon={''} buttonContent={'GO TO USD COIN'} onClickHandler={function (arg: any) {
                 throw new Error('Function not implemented.');
                 // go to users wallet screen
             } }/>   

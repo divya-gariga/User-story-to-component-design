@@ -1,10 +1,10 @@
-import { Grid, List, Typography } from '@mui/material';
+import {Typography } from '@mui/material';
 import { responsePathAsArray } from 'graphql';
 import React, { useEffect, useState } from 'react';
-import Edit from '../../atoms/Edit';
+import Icon from '../../atoms/Icon';
 import WatchlistCard from '../../molecules/WatchlistCard';
 
-function Watchlist() {
+const Watchlist=()=> {
     const [watchListData, setWatchListData] = useState([{}]);
     function getWatchListByUserId() {
         {/* get users watch list from db
@@ -29,9 +29,9 @@ function Watchlist() {
             {/* goto trade screen */}
 
             {/* {miscellaneous icons } */}
-            <Edit/>
-            <Grid/>
-            <List/>
+            <Icon src="edit.jpg"/>
+            <Icon src="grid.jpg"/>
+            <Icon src="list.jpg"/>
             {/* {render each watchlist data} */}
             <WatchlistCard currencyName={''} currencyValue={0} netChange={0}/>
         </div>
